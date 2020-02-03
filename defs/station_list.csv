@@ -1,0 +1,15 @@
+stationID,101,102
+z,700,700
+trans_coeff1,0.003,0.003
+trans_coeff2,2.2,2.2
+lapse_rate_precip_default,0,0
+lapse_rate,0.0064,0.0064
+wet_lapse_rate,0.0049,0.0049
+temcf,0.4,0.4
+sea_level_clear_sky_trans,0.75,0.75
+atm_trans_lapse_rate,0.000029,0.000029
+cloud_opacity,0.8,0.8
+pptmin,0.0254,0.0254
+max_snow_temp,1,1
+min_rain_temp,-1,-1
+seriesName,cwtDTS.csv,dgdf
