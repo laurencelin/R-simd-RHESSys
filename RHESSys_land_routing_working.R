@@ -262,8 +262,8 @@ source("~/Dropbox/LIB_Rscript/LIB_dailytimeseries3.r")
 			zone$Delta_T = zone$tmax - zone$tmin; zone$Delta_T[zone_MatrixCOND] = zone$Delta_T[zone_MatrixCOND]*0.75;
 			
 			
-				zone$tmp2 = (station$max_snow_temp[worldfile.zone2station]-zone$tavg)*station$max_min_frac[worldfile.zone2station]
-				zone$tmp2[zone$tmp2<0] = 0
+            zone$tmp2 = (station$max_snow_temp[worldfile.zone2station]-zone$tavg)*station$max_min_frac[worldfile.zone2station]
+            zone$tmp2[zone$tmp2<0] = 0
 			zone$tmp1 = zone$tavg-station$[hillCSID,'min_rain_temp']
 			zone_Matrix[zone$tmp1]<=0,'tmp2'] = 1
 			zone$snow = zone$tmp2 * zone$skyfallwater
